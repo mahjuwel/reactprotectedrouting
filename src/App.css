@@ -36,3 +36,18 @@
     transform: rotate(360deg);
   }
 }
+nav {
+  height: 10vh;
+  background-color: darkslategray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nav-link {
+  color: white;
+  margin: 1rem;
+  text-decoration: none;
+}
+.nav-link:hover {
+  color: orange;
+}
